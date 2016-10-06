@@ -94,3 +94,4 @@ class Population:
         self.old_individuals = self.individuals
         self.individuals = new_individuals
         self.sum_fitness = sum([individual.fitness for individual in self.individuals])
+        self.generation_num += 1
